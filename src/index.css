@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Warm cream background inspired by logo */
+    --background: 38 45% 95%;
+    --foreground: 25 40% 15%;
+
+    /* Card surfaces with subtle warmth */
+    --card: 40 50% 98%;
+    --card-foreground: 25 40% 15%;
+
+    --popover: 40 50% 98%;
+    --popover-foreground: 25 40% 15%;
+
+    /* Saffron/Orange primary from Trishul */
+    --primary: 28 90% 50%;
+    --primary-foreground: 40 50% 98%;
+
+    /* Golden secondary */
+    --secondary: 42 85% 55%;
+    --secondary-foreground: 25 40% 15%;
+
+    /* Muted warm tones */
+    --muted: 40 30% 92%;
+    --muted-foreground: 28 25% 45%;
+
+    /* Gold accent */
+    --accent: 45 100% 60%;
+    --accent-foreground: 25 40% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 40 50% 98%;
+
+    --border: 40 25% 85%;
+    --input: 40 25% 90%;
+    --ring: 28 90% 50%;
+
+    --radius: 0.75rem;
+    
+    /* Custom travel theme colors */
+    --saffron: 28 90% 50%;
+    --saffron-light: 30 85% 65%;
+    --gold: 45 100% 60%;
+    --gold-dark: 42 85% 45%;
+    --cream: 38 45% 95%;
+    --bronze: 25 50% 40%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(28 90% 50%) 0%, hsl(45 100% 60%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(40 50% 98%) 0%, hsl(40 30% 96%) 100%);
+    --gradient-accent: linear-gradient(90deg, hsl(28 90% 50%) 0%, hsl(42 85% 55%) 50%, hsl(45 100% 60%) 100%);
+    
+    /* Shadows */
+    --shadow-soft: 0 2px 8px hsla(28 90% 50% / 0.1);
+    --shadow-medium: 0 4px 16px hsla(28 90% 50% / 0.15);
+    --shadow-strong: 0 8px 32px hsla(28 90% 50% / 0.25);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 25 35% 10%;
+    --foreground: 40 50% 95%;
+
+    --card: 25 30% 15%;
+    --card-foreground: 40 50% 95%;
+
+    --popover: 25 30% 15%;
+    --popover-foreground: 40 50% 95%;
+
+    --primary: 28 90% 55%;
+    --primary-foreground: 40 50% 98%;
+
+    --secondary: 42 75% 45%;
+    --secondary-foreground: 40 50% 98%;
+
+    --muted: 25 25% 20%;
+    --muted-foreground: 40 20% 65%;
+
+    --accent: 45 85% 55%;
+    --accent-foreground: 25 35% 10%;
+
+    --destructive: 0 62.8% 40.6%;
+    --destructive-foreground: 40 50% 98%;
+
+    --border: 25 25% 25%;
+    --input: 25 25% 20%;
+    --ring: 28 90% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-medium {
+    box-shadow: var(--shadow-medium);
+  }
+  
+  .shadow-strong {
+    box-shadow: var(--shadow-strong);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+  
+  .hover-lift {
+    @apply transition-smooth hover:-translate-y-1 hover:shadow-medium;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-[hsl(28,90%,50%)] via-[hsl(42,85%,55%)] to-[hsl(45,100%,60%)] bg-clip-text text-transparent;
+  }
+
+  /* Shimmer loading animation */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      hsl(var(--muted)) 0%,
+      hsl(var(--muted-foreground) / 0.1) 50%,
+      hsl(var(--muted)) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  /* Gallery item animation */
+  .gallery-item {
+    animation: galleryFadeIn 0.6s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+
+  @keyframes galleryFadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  /* Lightbox image animation */
+  .lightbox-image {
+    animation: lightboxZoom 0.3s ease-out;
+  }
+
+  @keyframes lightboxZoom {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Floating animation for gallery hover */
+  .gallery-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+}
