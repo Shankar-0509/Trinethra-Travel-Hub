@@ -8,6 +8,57 @@ import aircraftMuseum from "@/assets/tours/aircraft-museum.jpg";
 import rkBeach from "@/assets/tours/rk-beach.jpg";
 import fishingHarbour from "@/assets/tours/fishing-harbour.jpg";
 import centralPark from "@/assets/tours/central-park.jpg";
+
+import bheemiliBeach from "@/assets/tours/bheemili-beach.jpg";
+import naturalRockArch from "@/assets/tours/natural-rock-arch.jpg";
+import thotlakonda from "@/assets/tours/thotlakonda.jpg";
+import ramaNaiduStudio from "@/assets/tours/rama-naidu-studio.jpg";
+import rushikondaBeach from "@/assets/tours/rushikonda-beach.jpg";
+import venkateswaraTemple from "@/assets/tours/venkateswara-temple.jpg";
+import iskconTemple from "@/assets/tours/iskcon-temple.jpg";
+import vizagViewPoint from "@/assets/tours/vizag-view-point.jpg";
+import kambalakonda from "@/assets/tours/kambalakonda.jpg";
+import zooPark from "@/assets/tours/zoo-park.jpg";
+
+import yaradaBeach from "@/assets/tours/yarada-beach.jpg";
+import rossHillChurch from "@/assets/tours/ross-hill-church.jpg";
+import lightHouse from "@/assets/tours/light-house.jpg";
+import portArea from "@/assets/tours/port-area.jpg";
+
+import borraCaves from "@/assets/tours/borra-caves.jpg";
+import ananthagiriWaterfalls from "@/assets/tours/ananthagiri-waterfalls.jpg";
+import coffeePlantation from "@/assets/tours/ananthagiri-coffee-plantation.jpg";
+import galikondaViewPoint from "@/assets/tours/galikonda-view-point.jpg";
+import coffeeMuseum from "@/assets/tours/coffee-museum.jpg";
+import tribalMuseum from "@/assets/tours/tribal-museum.jpg";
+import padmapuramGardens from "@/assets/tours/padmapuram-gardens.jpg";
+import shootingSpots from "@/assets/tours/shooting-spots.jpg";
+
+import zooPark2 from "@/assets/tours/zoo-park-2.jpg";
+import kambalakonda2 from "@/assets/tours/kambalakonda-2.jpg";
+import rushikondaBeach2 from "@/assets/tours/rushikonda-beach-2.jpg";
+import ramaNaiduStudio2 from "@/assets/tours/rama-naidu-studio-2.jpg";
+import thotlakonda2 from "@/assets/tours/thotlakonda-2.jpg";
+import naturalRockArch2 from "@/assets/tours/natural-rock-arch-2.jpg";
+import venkateswaraTemple2 from "@/assets/tours/venkateswara-temple-2.jpg";
+import borraCaves3 from "@/assets/tours/borra-caves-3.jpg";
+import ananthagiriWaterfalls3 from "@/assets/tours/ananthagiri-waterfalls-3.jpg";
+import galikondaViewPoint3 from "@/assets/tours/galikonda-view-point-3.jpg";
+import coffeeMuseum3 from "@/assets/tours/coffee-museum-3.jpg";
+import tribalMuseum3 from "@/assets/tours/tribal-museum-3.jpg";
+import padmapuramGardens3 from "@/assets/tours/padmapuram-gardens-3.jpg";
+
+import borraCaves2 from "@/assets/tours/borra-caves-2.jpg";
+import ananthagiriFalls2 from "@/assets/tours/ananthagiri-waterfalls-2.jpg";
+import woodenBridge from "@/assets/tours/wooden-bridge.jpg";
+import galikondaViewPoint2 from "@/assets/tours/galikonda-view-point-2.jpg";
+import coffeeMuseum2 from "@/assets/tours/coffee-museum-2.jpg";
+import tribalMuseum2 from "@/assets/tours/tribal-museum-2.jpg";
+import padmapuramGardens2 from "@/assets/tours/padmapuram-gardens-2.jpg";
+import madagadaViewPoint from "@/assets/tours/madagada-view-point.jpg";
+import katikiWaterfalls from "@/assets/tours/katiki-waterfalls.jpg";
+import pineryTrees from "@/assets/tours/pinery-trees.png";
+
 export interface TourImage {
   term: string;
   url: string;
@@ -74,17 +125,17 @@ export const tourPackages: TourPackage[] = [
       "Zoo Park",
     ],
     images: [
-      { term: "Bheemili Beach", url: "/src/assets/tours/bheemili-beach.jpg" },
-      { term: "Natural Rock Arch", url: "/src/assets/tours/natural-rock-arch.jpg" },
-      { term: "Thotlakonda Buddhist Site", url: "/src/assets/tours/thotlakonda.jpg" },
-      { term: "Rama Naidu Studios", url: "/src/assets/tours/rama-naidu-studio.jpg" },
-      { term: "Rushikonda Beach", url: "/src/assets/tours/rushikonda-beach.jpg" },
-      { term: "Venkateswara Temple", url: "/src/assets/tours/venkateswara-temple.jpg" },
-      { term: "ISKCON Temple", url: "/src/assets/tours/iskcon-temple.jpg" },
-      { term: "Vizag View Point", url: "/src/assets/tours/vizag-view-point.jpg" },
-      { term: "Kambalakonda Wildlife", url: "/src/assets/tours/kambalakonda.jpg" },
-      { term: "Zoo Park", url: "/src/assets/tours/zoo-park.jpg" },
-    ],
+  { term: "Bheemili Beach", url: bheemiliBeach },
+  { term: "Natural Rock Arch", url: naturalRockArch },
+  { term: "Thotlakonda Buddhist Site", url: thotlakonda },
+  { term: "Rama Naidu Studios", url: ramaNaiduStudio },
+  { term: "Rushikonda Beach", url: rushikondaBeach },
+  { term: "Venkateswara Temple", url: venkateswaraTemple },
+  { term: "ISKCON Temple", url: iskconTemple },
+  { term: "Vizag View Point", url: vizagViewPoint },
+  { term: "Kambalakonda Wildlife", url: kambalakonda },
+  { term: "Zoo Park", url: zooPark },
+],
   },
   {
     id: "4-points-out",
@@ -94,11 +145,11 @@ export const tourPackages: TourPackage[] = [
     duration: "Half Day",
     places: ["Yarada Beach", "Ross Hill Church", "Light House", "Port Area"],
     images: [
-      { term: "Yarada Beach", url: "/src/assets/tours/yarada-beach.jpg" },
-      { term: "Ross Hill Church", url: "/src/assets/tours/ross-hill-church.jpg" },
-      { term: "Light House", url: "/src/assets/tours/light-house.jpg" },
-      { term: "Port Area", url: "/src/assets/tours/port-area.jpg" },
-    ],
+  { term: "Yarada Beach", url: yaradaBeach },
+  { term: "Ross Hill Church", url: rossHillChurch },
+  { term: "Light House", url: lightHouse },
+  { term: "Port Area", url: portArea },
+],
   },
   {
     id: "araku-sightseeing",
@@ -117,15 +168,15 @@ export const tourPackages: TourPackage[] = [
       "Shooting Spots",
     ],
     images: [
-      { term: "Borra Caves", url: "/src/assets/tours/borra-caves.jpg" },
-      { term: "Ananthagiri Waterfalls", url: "/src/assets/tours/ananthagiri-waterfalls.jpg" },
-      { term: "Coffee Plantation", url: "/src/assets/tours/ananthagiri-coffee-plantation.jpg" },
-      { term: "Galikonda View Point", url: "/src/assets/tours/galikonda-view-point.jpg" },
-      { term: "Coffee Museum", url: "/src/assets/tours/coffee-museum.jpg" },
-      { term: "Tribes Museum", url: "/src/assets/tours/tribal-museum.jpg" },
-      { term: "Padmapuram Gardens", url: "/src/assets/tours/padmapuram-gardens.jpg" },
-      { term: "Shooting Spots", url: "/src/assets/tours/shooting-spots.jpg" },
-    ],
+  { term: "Borra Caves", url: borraCaves },
+  { term: "Ananthagiri Waterfalls", url: ananthagiriWaterfalls },
+  { term: "Coffee Plantation", url: coffeePlantation },
+  { term: "Galikonda View Point", url: galikondaViewPoint },
+  { term: "Coffee Museum", url: coffeeMuseum },
+  { term: "Tribes Museum", url: tribalMuseum },
+  { term: "Padmapuram Gardens", url: padmapuramGardens },
+  { term: "Shooting Spots", url: shootingSpots },
+],
   },
   {
     id: "3-day-trip",
@@ -139,20 +190,20 @@ export const tourPackages: TourPackage[] = [
       "Day 3: Borra Caves, Ananthagiri Waterfalls, Wooden Bridge, Galikonda View Point, Coffee Museum, Tribes Museum, Padmapuram Gardens",
     ],
     images: [
-      { term: "Zoo Park", url: "/src/assets/tours/zoo-park-2.jpg" },
-      { term: "Kambalakonda", url: "/src/assets/tours/kambalakonda-2.jpg" },
-      { term: "Rushikonda Beach", url: "/src/assets/tours/rushikonda-beach-2.jpg" },
-      { term: "Rama Naidu Studio", url: "/src/assets/tours/rama-naidu-studio-2.jpg" },
-      { term: "Thotlakonda", url: "/src/assets/tours/thotlakonda-2.jpg" },
-      { term: "Natural Rock Arch", url: "/src/assets/tours/natural-rock-arch-2.jpg" },
-      { term: "Venkateswara Temple", url: "/src/assets/tours/venkateswara-temple-2.jpg" },
-      { term: "Borra Caves", url: "/src/assets/tours/borra-caves-3.jpg" },
-      { term: "Ananthagiri Waterfalls", url: "/src/assets/tours/ananthagiri-waterfalls-3.jpg" },
-      { term: "Galikonda View Point", url: "/src/assets/tours/galikonda-view-point-3.jpg" },
-      { term: "Coffee Museum", url: "/src/assets/tours/coffee-museum-3.jpg" },
-      { term: "Tribes Museum", url: "/src/assets/tours/tribal-museum-3.jpg" },
-      { term: "Padmapuram Gardens", url: "/src/assets/tours/padmapuram-gardens-3.jpg" },
-    ],
+  { term: "Zoo Park", url: zooPark2 },
+  { term: "Kambalakonda", url: kambalakonda2 },
+  { term: "Rushikonda Beach", url: rushikondaBeach2 },
+  { term: "Rama Naidu Studio", url: ramaNaiduStudio2 },
+  { term: "Thotlakonda", url: thotlakonda2 },
+  { term: "Natural Rock Arch", url: naturalRockArch2 },
+  { term: "Venkateswara Temple", url: venkateswaraTemple2 },
+  { term: "Borra Caves", url: borraCaves3 },
+  { term: "Ananthagiri Waterfalls", url: ananthagiriWaterfalls3 },
+  { term: "Galikonda View Point", url: galikondaViewPoint3 },
+  { term: "Coffee Museum", url: coffeeMuseum3 },
+  { term: "Tribes Museum", url: tribalMuseum3 },
+  { term: "Padmapuram Gardens", url: padmapuramGardens3 },
+],
   },
   {
     id: "2-day-trip",
@@ -174,17 +225,17 @@ export const tourPackages: TourPackage[] = [
       "Pinery Trees",
     ],
     images: [
-      { term: "Borra Caves", url: "/src/assets/tours/borra-caves-2.jpg" },
-      { term: "Ananthagiri Falls", url: "/src/assets/tours/ananthagiri-waterfalls-2.jpg" },
-      { term: "Wooden Bridge", url: "/src/assets/tours/wooden-bridge.jpg" },
-      { term: "Galikonda View Point", url: "/src/assets/tours/galikonda-view-point-2.jpg" },
-      { term: "Coffee Museum", url: "/src/assets/tours/coffee-museum-2.jpg" },
-      { term: "Tribes Museum", url: "/src/assets/tours/tribal-museum-2.jpg" },
-      { term: "Padmapuram Gardens", url: "/src/assets/tours/padmapuram-gardens-2.jpg" },
-      { term: "Madagada View Point", url: "/src/assets/tours/madagada-view-point.jpg" },
-      { term: "Katiki Waterfalls", url: "/src/assets/tours/katiki-waterfalls.jpg" },
-      { term: "Pinery Trees", url: "/src/assets/tours/pinery-trees.png" },
-    ],
+  { term: "Borra Caves", url: borraCaves2 },
+  { term: "Ananthagiri Falls", url: ananthagiriFalls2 },
+  { term: "Wooden Bridge", url: woodenBridge },
+  { term: "Galikonda View Point", url: galikondaViewPoint2 },
+  { term: "Coffee Museum", url: coffeeMuseum2 },
+  { term: "Tribes Museum", url: tribalMuseum2 },
+  { term: "Padmapuram Gardens", url: padmapuramGardens2 },
+  { term: "Madagada View Point", url: madagadaViewPoint },
+  { term: "Katiki Waterfalls", url: katikiWaterfalls },
+  { term: "Pinery Trees", url: pineryTrees },
+],
   },
 ];
 
