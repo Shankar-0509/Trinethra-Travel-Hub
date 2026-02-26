@@ -1,3 +1,4 @@
+import simhachalam from "@/assets/tours/simhachalam.jpg";
 export interface TourImage {
   term: string;
   url: string;
@@ -33,7 +34,7 @@ export const tourPackages: TourPackage[] = [
       "Central Park",
     ],
     images: [
-      { term: "Simhachalam Temple", url: "/src/assets/tours/simhachalam.jpg" },
+      { term: "Simhachalam Temple", url: simhachalam },
       { term: "Lumbini Park", url: "/src/assets/tours/lumbini-park.jpg" },
       { term: "Kailasagiri Hilltop", url: "/src/assets/tours/kailasagiri.jpg" },
       { term: "Teneti Park", url: "/src/assets/tours/teneti-park.jpg" },
