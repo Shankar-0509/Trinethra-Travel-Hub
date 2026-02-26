@@ -639,10 +639,10 @@ const Home = () => {
               </div>
               <h3 className="font-bold mb-2">Email</h3>
               <a
-                href="mailto:trinethratravelhub04@gmail.com"
+                href="mailto:trinetratravelhub@gmail.com"
                 className="text-primary hover:underline"
               >
-                trinethratravelhub04@gmail.com
+                trinetratravelhub@gmail.com
               </a>
             </div>
 
@@ -704,7 +704,7 @@ const Home = () => {
                   WhatsApp Us
                 </a>
                 <a
-                  href="mailto:trinethratravelhub04@gmail.com"
+                  href="mailto:trinetratravelhub@gmail.com"
                   className="block w-full bg-secondary text-secondary-foreground px-6 py-4 rounded-lg font-semibold text-center hover-lift shadow-soft"
                 >
                   <Mail className="inline mr-2 h-5 w-5" />

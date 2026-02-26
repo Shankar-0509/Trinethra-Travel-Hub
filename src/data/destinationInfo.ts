@@ -307,6 +307,18 @@ export const destinationInfoMap: Record<string, DestinationInfo> = {
     highlights: ["Temple replicas", "Multiple deities", "Spiritual tour", "Unique concept"],
     bestTimeToVisit: "Morning"
   },
+  "Ramatheertham": {
+  name: "Ramatheertham",
+  description: "Ramatheertham is a historic and sacred pilgrimage site located near Vizianagaram. The temple complex is situated on a scenic hill surrounded by lush greenery and is believed to be associated with Lord Rama during his exile. The site is also known for ancient Buddhist remains and serene natural surroundings.",
+  highlights: [
+    "Ancient hilltop temple",
+    "Connection to Lord Rama",
+    "Historic Buddhist relics",
+    "Scenic panoramic views",
+    "Peaceful spiritual atmosphere"
+  ],
+  bestTimeToVisit: "Morning or Evening"
+},
   "Temple Gopuram": {
     name: "Traditional Temple Gopurams",
     description: "The magnificent entrance towers (gopurams) of South Indian temples are architectural marvels featuring colorful sculptures depicting mythological stories.",
@@ -343,6 +355,18 @@ export const destinationInfoMap: Record<string, DestinationInfo> = {
     highlights: ["Hilltop location", "Highly revered", "Satya Vratha puja", "Scenic surroundings"],
     bestTimeToVisit: "Early morning"
   },
+  "Talupulamma Lova Temple": {
+  name: "Talupulamma Lova Temple",
+  description: "Talupulamma Lova Temple is a famous hill shrine dedicated to Goddess Talupulamma, located near Tuni in Andhra Pradesh. Nestled amidst dense forests and scenic hill ranges of the Eastern Ghats, the temple is a popular spiritual and tourist destination. Devotees visit the temple seeking blessings for prosperity and protection, especially during festive occasions.",
+  highlights: [
+    "Hilltop temple in Eastern Ghats",
+    "Dense forest surroundings",
+    "Panoramic scenic views",
+    "Popular during festivals",
+    "Peaceful and devotional atmosphere"
+  ],
+  bestTimeToVisit: "Morning or Late Afternoon"
+},
   "Nookalamma Temple": {
     name: "Nookalamma Temple",
     description: "A popular temple dedicated to Goddess Nookalamma, considered a manifestation of Goddess Durga. Known for fulfilling devotees' wishes.",

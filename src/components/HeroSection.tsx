@@ -83,18 +83,18 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
-              to="/tours"
+            <a
+              href="#tours"
               className="gradient-hero text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg hover-lift shadow-strong w-full sm:w-auto"
             >
               Explore Tours
-            </Link>
-            <Link
-              to="/book"
+            </a>
+            <a
+              href="#book"
               className="bg-white text-primary px-8 py-4 rounded-full font-semibold text-lg hover-lift shadow-strong w-full sm:w-auto border-2 border-primary/20"
             >
               Book Now
-            </Link>
+            </a>
           </div>
         </div>
       </div>

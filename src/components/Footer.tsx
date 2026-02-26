@@ -77,10 +77,10 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
                 <a
-                  href="mailto:trinethratravelhub04@gmail.com"
+                  href="mailto:trinetratravelhub@gmail.com"
                   className="text-sm text-muted-foreground hover:text-primary transition-smooth"
                 >
-                  trinethratravelhub04@gmail.com
+                  trinetratravelhub@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -104,7 +104,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/trinetratravelhub?utm_source=qr&igsh=ODB1dGZ6YnlhZ2Iw"
                 className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-smooth"
                 aria-label="Instagram"
               >
@@ -118,12 +118,12 @@ const Footer = () => {
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
-            <Link
-              to="/book"
+            <a
+              href="#book"
               className="block w-full gradient-hero text-primary-foreground px-6 py-3 rounded-full font-semibold text-center hover-lift shadow-soft"
             >
               Book Your Trip
-            </Link>
+            </a>
           </div>
         </div>
 

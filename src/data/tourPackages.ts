@@ -203,11 +203,35 @@ export const templeTourPackages: TempleTourPackage[] = [
       "Sampath Vinayaka Temple",
     ],
     images: [
-      { term: "Simhachalam Temple", url: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop" },
-      { term: "Mahalakshmi Temple", url: "https://images.unsplash.com/photo-1564804955877-eb5dbfac8985?w=800&h=600&fit=crop" },
-      { term: "ISKCON Temple", url: "https://images.unsplash.com/photo-1587135941948-670b381f08ce?w=800&h=600&fit=crop" },
-      { term: "Temple Architecture", url: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=600&fit=crop" },
-    ],
+  {
+    term: "Simhachalam Temple",
+    url: "https://tse1.mm.bing.net/th/id/OIP.wrv9NNTAz5WUPK56TGNb3gHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    term: "Mahalakshmi Temple Vizag",
+    url: "https://vizagtourism.org.in/images/places-to-visit/header/sri-kanaka-mahalakshmi-temple-vizag-tourism-entry-fee-timings-holidays-reviews-header.jpg"
+  },
+  {
+    term: "Kanaka Mahalakshmi Temple",
+    url: "https://tripxl.com/blog/wp-content/uploads/2024/08/Kanaka-Mahalakshmi-Temple-cp-840x425.jpg"
+  },
+  {
+    term: "ISKCON Temple Vizag",
+    url: "https://s7ap1.scene7.com/is/image/incredibleindia/iskcon-temple-vishakapatnam-andhra-pradesh-2-attr-hero?qlt=82&ts=1726744384470"
+  },
+  {
+    term: "Kali Mata Temple Vizag",
+    url: "https://tse3.mm.bing.net/th/id/OIP.jvP3T839C8tnJ-6ybnUGOwHaGh?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    term: "TTD Venkateswara Temple Vizag",
+    url: "https://www.yovizag.com/wp-content/uploads/2022/03/ttd-vizag.jpg"
+  },
+  {
+    term: "Sampath Vinayaka Temple",
+    url: "https://vizagtourism.org.in/images/tourist-places/sree-sampath-vinayagar-temple-vizag/sree-sampath-vinayagar-temple-vizag-tourism-opening-time-closing.jpg"
+  }
+]
   },
   {
     id: "vizianagaram-temple",
@@ -215,15 +239,24 @@ export const templeTourPackages: TempleTourPackage[] = [
     price5Seater: 3499,
     price7Seater: 4499,
     temples: [
-      "Pydithalli Ammavari Temple",
+      "Pydithalli Temple",
       "Ramanarayanam Temple",
       "Ramatheertham",
     ],
     images: [
-      { term: "Pydithalli Temple", url: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop" },
-      { term: "Ramanarayanam Temple", url: "https://images.unsplash.com/photo-1564804955877-eb5dbfac8985?w=800&h=600&fit=crop" },
-      { term: "Temple Gopuram", url: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=600&fit=crop" },
-    ],
+  {
+    term: "Pydithalli Temple",
+    url: "https://travellerkaka.com/wp-content/uploads/2024/09/Untitled-design-93-1-1024x536.png"
+  },
+  {
+    term: "Ramanarayanam Temple",
+    url: "https://i.ytimg.com/vi/-8qZXtsvRuY/maxresdefault.jpg"
+  },
+  {
+    term: "Ramatheertham",
+    url: "https://www.yovizag.com/wp-content/uploads/2021/09/Ram-Teerdhalu-Temple_FB.jpg"
+  }
+],
   },
   {
     id: "srikakulam-temple",
@@ -232,10 +265,19 @@ export const templeTourPackages: TempleTourPackage[] = [
     price7Seater: 6999,
     temples: ["Arasavilli", "Srimukhalingam", "Srikurmam"],
     images: [
-      { term: "Arasavilli Sun Temple", url: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?w=800&h=600&fit=crop" },
-      { term: "Srimukhalingam Temple", url: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop" },
-      { term: "Srikurmam Temple", url: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=600&fit=crop" },
-    ],
+  {
+    term: "Arasavilli",
+    url: "https://media-cdn.tripadvisor.com/media/photo-s/12/aa/98/cb/temple-gate.jpg"
+  },
+  {
+    term: "Srimukhalingam",
+    url: "https://tse1.explicit.bing.net/th/id/OIP.NihYygXOlO7ewnbx35ON-QHaD3?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    term: "Srikurmam",
+    url: "https://farm2.staticflickr.com/1893/44562940222_480d24af66_b.jpg"
+  }
+],
   },
   {
     id: "venkateswara-swamy",
@@ -244,8 +286,8 @@ export const templeTourPackages: TempleTourPackage[] = [
     price7Seater: 9999,
     temples: ["Vadapalli", "Annavaram"],
     images: [
-      { term: "Vadapalli Temple", url: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop" },
-      { term: "Annavaram Temple", url: "https://images.unsplash.com/photo-1564804955877-eb5dbfac8985?w=800&h=600&fit=crop" },
+      { term: "Vadapalli", url: "https://th.bing.com/th/id/OIP.ghcD3nvBca6m5AiQTa0ziAHaEK?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" },
+      { term: "Annavaram", url: "https://travellerkaka.com/wp-content/uploads/2024/09/Untitled-design-48-1024x536.png" },
     ],
   },
   {
@@ -255,13 +297,11 @@ export const templeTourPackages: TempleTourPackage[] = [
     price7Seater: 5999,
     temples: [
       "Nookalamma Temple",
-      "Annavaram",
       "Talupulamma Lova Temple",
     ],
     images: [
-      { term: "Nookalamma Temple", url: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop" },
-      { term: "Annavaram Temple", url: "https://images.unsplash.com/photo-1564804955877-eb5dbfac8985?w=800&h=600&fit=crop" },
-      { term: "Temple Festival", url: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=600&fit=crop" },
+      { term: "Nookalamma Temple", url: "https://64.media.tumblr.com/2e073f8108f4bafef734054d90311800/8873c99dc1ab6b82-31/s1280x1920/220fcd633c2ba47c5be72f7075945b0267f2d31f.jpg" },
+      { term: "Talupulamma Lova Temple", url: "https://tse4.mm.bing.net/th/id/OIP.nuwC6kChPNABaeakHzemUQHaE9?rs=1&pid=ImgDetMain&o=7&rm=3" },
     ],
   },
   {
@@ -270,16 +310,16 @@ export const templeTourPackages: TempleTourPackage[] = [
     price5Seater: 11999,
     price7Seater: 15999,
     temples: [
-      "Vijayawada",
+      "Kanaka Durga Temple",
       "Annavaram",
       "Dwaraka Tirumala",
-      "Rajahmundry",
+      "Rajahmundry River ( Godavari )",
     ],
     images: [
-      { term: "Kanaka Durga Temple", url: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop" },
-      { term: "Annavaram Temple", url: "https://images.unsplash.com/photo-1564804955877-eb5dbfac8985?w=800&h=600&fit=crop" },
-      { term: "Dwaraka Tirumala", url: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=600&fit=crop" },
-      { term: "Godavari River", url: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=600&fit=crop" },
+      { term: "Kanaka Durga Temple", url: "https://tse1.mm.bing.net/th/id/OIP._Ucw2iynXGO-bCYnxCByMAHaDX?rs=1&pid=ImgDetMain&o=7&rm=3" },
+      { term: "Annavaram", url: "https://travellerkaka.com/wp-content/uploads/2024/09/Untitled-design-48-1024x536.png" },
+      { term: "Dwaraka Tirumala", url: "https://www.templepurohit.com/wp-content/uploads/2015/09/Dwaraka-Tirumala-Sri-Venkateswara-Swamy-temple-2.jpg" },
+      { term: "Rajahmundry River ( Godavari )", url: "https://www.holidify.com/blog/wp-content/uploads/2014/06/Godavari-River-Rajahmundry.jpg" },
     ],
   },
   {
@@ -295,11 +335,11 @@ export const templeTourPackages: TempleTourPackage[] = [
       "Kumararam - Kumara Bheemeswara Swamy Temple",
     ],
     images: [
-      { term: "Amararama Temple", url: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&h=600&fit=crop" },
-      { term: "Somarama Temple", url: "https://images.unsplash.com/photo-1564804955877-eb5dbfac8985?w=800&h=600&fit=crop" },
-      { term: "Draksharama Temple", url: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&h=600&fit=crop" },
-      { term: "Temple Shiva Lingam", url: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?w=800&h=600&fit=crop" },
-      { term: "Sacred Temple Art", url: "https://images.unsplash.com/photo-1587135941948-670b381f08ce?w=800&h=600&fit=crop" },
+      { term: "Amararama Temple", url: "https://tse4.mm.bing.net/th/id/OIP.88O373O-vwPoWJVaxMIheQHaI9?rs=1&pid=ImgDetMain&o=7&rm=3" },
+      { term: "Somarama Temple", url: "https://tse1.mm.bing.net/th/id/OIP.2mL5kegu8QY07csGh8YegQHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3" },
+      { term: "Temple Shiva Lingam", url: "https://www.templefolks.com/templefolks_admin/public/uploads/products/ksheerarama_shivalingam-4265675.jpg" },
+      { term: "Draksharama Temple", url: "https://kakinadapages.com/images/articles/draksharamam_temple.jpg" },
+    
     ],
   },
 ];
