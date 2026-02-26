@@ -1,4 +1,13 @@
 import simhachalam from "@/assets/tours/simhachalam.jpg";
+import lumbiniPark from "@/assets/tours/lumbini-park.jpg";
+import kailasagiri from "@/assets/tours/kailasagiri.jpg";
+import tenetiPark from "@/assets/tours/teneti-park.jpg";
+import vudaPark from "@/assets/tours/vuda-park.jpg";
+import submarineMuseum from "@/assets/tours/submarine-museum.jpg";
+import aircraftMuseum from "@/assets/tours/aircraft-museum.jpg";
+import rkBeach from "@/assets/tours/rk-beach.jpg";
+import fishingHarbour from "@/assets/tours/fishing-harbour.jpg";
+import centralPark from "@/assets/tours/central-park.jpg";
 export interface TourImage {
   term: string;
   url: string;
@@ -34,17 +43,17 @@ export const tourPackages: TourPackage[] = [
       "Central Park",
     ],
     images: [
-      { term: "Simhachalam Temple", url: simhachalam },
-      { term: "Lumbini Park", url: "/src/assets/tours/lumbini-park.jpg" },
-      { term: "Kailasagiri Hilltop", url: "/src/assets/tours/kailasagiri.jpg" },
-      { term: "Teneti Park", url: "/src/assets/tours/teneti-park.jpg" },
-      { term: "VUDA Park", url: "/src/assets/tours/vuda-park.jpg" },
-      { term: "Submarine Museum", url: "/src/assets/tours/submarine-museum.jpg" },
-      { term: "Aircraft Museum", url: "/src/assets/tours/aircraft-museum.jpg" },
-      { term: "RK Beach", url: "/src/assets/tours/rk-beach.jpg" },
-      { term: "Fishing Harbour", url: "/src/assets/tours/fishing-harbour.jpg" },
-      { term: "Central Park", url: "/src/assets/tours/central-park.jpg" },
-    ],
+  { term: "Simhachalam Temple", url: simhachalam },
+  { term: "Lumbini Park", url: lumbiniPark },
+  { term: "Kailasagiri Hilltop", url: kailasagiri },
+  { term: "Teneti Park", url: tenetiPark },
+  { term: "VUDA Park", url: vudaPark },
+  { term: "Submarine Museum", url: submarineMuseum },
+  { term: "Aircraft Museum", url: aircraftMuseum },
+  { term: "RK Beach", url: rkBeach },
+  { term: "Fishing Harbour", url: fishingHarbour },
+  { term: "Central Park", url: centralPark },
+],
   },
   {
     id: "local-plan-b",
